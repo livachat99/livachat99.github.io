@@ -1,0 +1,85 @@
+LivaChat End User License Agreement (EULA)
+Effective date: November 1, 2026
+Last updated: November 1, 2026
+
+This End User License Agreement ("Agreement") is a legal agreement between you and JIANHUA YANG ("Licensor", "we", "us") for the LivaChat iOS application and its documentation, updates, and related materials (collectively, the "Licensed Application"). The LivaChat server is separate open-source software that you install and operate yourself and is not part of the Licensed Application.
+
+1. Acknowledgment
+You and Licensor acknowledge that this Agreement is concluded between you and Licensor only, and not with Apple Inc. ("Apple"). Licensor, not Apple, is solely responsible for the Licensed Application and its content. This Agreement does not apply to the LivaChat server or any third-party software or service you use with it.
+
+2. Scope of License
+Subject to this Agreement and the Apple Media Services Terms and Conditions, Licensor grants you a limited, non-exclusive, non-transferable, revocable license to use the Licensed Application on Apple-branded devices that you own or control, as permitted by the App Store terms.
+You may not copy, modify, distribute, sell, rent, lease, sublicense, or reverse engineer the Licensed Application except as expressly permitted by this Agreement, applicable open-source licenses, or applicable law. You may not use the Licensed Application in a way that violates this Agreement or any applicable law.
+
+3. Open-Source Components
+The Licensed Application includes open-source software, including LivaChat (Apache License 2.0) and third-party components (including MIT- and BSD-licensed components). Your use of those components is governed by their respective licenses. Nothing in this Agreement limits your rights under those licenses. License texts are provided in the Licensed Application's open-source notices and in the source distribution.
+
+4. The Server and Your Responsibilities
+The Licensed Application is a client for a LivaChat server that you obtain, install, and operate yourself. Licensor does not provide, operate, control, host, or support any server for the Licensed Application. You are solely responsible for your server, including its security, configuration, backups, availability, content, retention, third-party services, API keys, costs, and legal compliance. Licensor does not control and is not responsible for any content, AI output, data, or behavior of your server.
+
+5. Eligibility
+The Licensed Application is intended for adults. You must be at least 18 years old to use it. By using the Licensed Application, you represent and warrant that you are at least 18 years old and legally capable of entering into this Agreement.
+
+6. AI-Generated Content
+The Licensed Application may display or play AI-generated content produced by your server. AI output may be inaccurate, incomplete, offensive, biased, harmful, or otherwise unsuitable. It is not medical, legal, financial, or other professional advice. Do not rely on it for emergencies or important decisions without independent verification. You are solely responsible for how you use AI output and for any content you create, upload, record, or generate.
+
+7. Acceptable Use
+You may not use the Licensed Application or your server to:
+- create, request, or distribute non-consensual intimate imagery or sexual content involving minors;
+- harass, threaten, defame, or promote violence or hatred against any person or group;
+- encourage self-harm or provide instructions for harming yourself or others;
+- violate intellectual property, privacy, or other rights of any person;
+- distribute malware, conduct fraud, or engage in any illegal activity;
+- attempt to gain unauthorized access to, interfere with, or disrupt the Licensed Application, your server, or any network or service;
+- violate applicable laws or the terms of any third-party service you use.
+
+Licensor has zero tolerance for objectionable content and abusive behavior. Licensor may suspend or terminate your license, support, and any related services if you violate this Agreement. Because Licensor does not operate your server, Licensor cannot delete server-side content; you must do that yourself. Licensor may cooperate with law enforcement where required.
+
+8. Reporting Objectionable Content
+You can report AI output or other objectionable content from the Licensed Application or by emailing livachat99@gmail.com. Include the app version, the time of the incident, and a description of the content. Do not send sensitive personal data unless necessary. Licensor aims to respond to reports within 24 hours and may take appropriate action, including updating the Licensed Application, documentation, or server guidance.
+
+9. Maintenance and Support
+Licensor is solely responsible for providing maintenance and support for the Licensed Application as required by applicable law. Apple has no obligation to furnish any maintenance or support services for the Licensed Application. Licensor may provide updates at its discretion; the Licensed Application may require a compatible server version.
+
+10. Disclaimer of Warranties
+To the maximum extent permitted by law, the Licensed Application is provided "as is" and "as available" without warranties of any kind, whether express, implied, or statutory, including warranties of merchantability, fitness for a particular purpose, non-infringement, accuracy, and uninterrupted or error-free operation. Licensor does not warrant that the Licensed Application or your server will be secure or free of harmful components. Some jurisdictions do not allow the exclusion of implied warranties; in that case, the exclusions apply to the maximum extent permitted by law.
+
+11. Limitation of Liability
+To the maximum extent permitted by law, Licensor is not liable for any indirect, incidental, special, consequential, punitive, or exemplary damages, or for any loss of data, profits, goodwill, or business interruption, arising out of or related to the Licensed Application, your server, AI output, or this Agreement, even if Licensor has been advised of the possibility of such damages. Licensor's total aggregate liability for all claims relating to the Licensed Application will not exceed the amount you paid for the Licensed Application. Nothing in this Agreement limits liability that cannot be limited under applicable law, including mandatory consumer rights.
+
+12. Indemnity
+You agree to indemnify, defend, and hold harmless Licensor from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable legal fees) arising from your use of the Licensed Application or your server, your content, your AI output, or your violation of this Agreement or applicable law.
+
+13. Intellectual Property
+The Licensed Application, including its design, code, and trademarks, is owned by Licensor or its licensors and is protected by intellectual property laws. This Agreement grants only the limited license described above; no ownership rights are transferred to you. Open-source components are governed by their respective licenses. "LivaChat" and related marks are trademarks of Licensor. You may not use them without permission, except for factual references.
+
+14. Legal Compliance
+You represent and warrant that you are not located in a country or region that is subject to a U.S. government embargo or that has been designated by the U.S. government as a "terrorist-supporting" country, and that you are not listed on any U.S. government list of prohibited or restricted parties. You must comply with all applicable laws, including export control and sanctions laws, and with the terms of any third-party service you use.
+
+15. Privacy
+The Privacy Policy at https://livachat99.github.io/privacy/ explains how data is handled. The Licensed Application does not collect or transmit your data to Licensor; it connects directly to the server you configure. You are responsible for the privacy practices of your server and any third-party services it uses.
+
+16. Term and Termination
+This Agreement is effective until terminated. You may terminate it by deleting the Licensed Application. Licensor may terminate this Agreement and your license if you breach it. Sections that by their nature should survive termination, including intellectual property, warranty disclaimers, limitation of liability, indemnity, and governing law, will survive. Termination does not affect your rights under applicable open-source licenses.
+
+17. Third-Party Beneficiary
+Apple is a third-party beneficiary of this Agreement and may enforce it against you. Except for Apple, this Agreement does not create any third-party beneficiary rights.
+
+18. Apple-Specific Terms
+You acknowledge and agree that:
+- this Agreement is between you and Licensor only, and not with Apple;
+- Apple has no obligation to furnish any maintenance or support services for the Licensed Application;
+- Apple is not responsible for any product warranties, whether express or implied, to the extent not effectively disclaimed;
+- Apple is not responsible for addressing any claims by you or any third party relating to the Licensed Application or your possession or use of it, including product liability claims, claims that the Licensed Application fails to conform to any applicable legal or regulatory requirement, and claims arising under consumer protection or similar legislation;
+- Apple is not responsible for the investigation, defense, settlement, or discharge of any third-party intellectual property infringement claim relating to the Licensed Application;
+- you must comply with applicable third-party terms when using the Licensed Application;
+- Apple and its subsidiaries are third-party beneficiaries of this Agreement and may enforce it against you.
+
+19. Governing Law and Disputes
+This Agreement is governed by the laws applicable to Licensor's principal place of business, without regard to conflict-of-law rules. If you are a consumer, this choice of law does not deprive you of the protection of mandatory consumer protection laws in your country of residence. Any dispute arising out of or relating to this Agreement will be brought in the courts with jurisdiction over Licensor's principal place of business, unless mandatory law gives you the right to bring the dispute elsewhere.
+
+20. Changes to this Agreement
+Licensor may update this Agreement from time to time. The updated version will be posted on this page with a new effective date. Continued use of the Licensed Application after an update means you accept the updated Agreement. If you do not agree, stop using the Licensed Application.
+
+21. Contact
+Questions about this Agreement: livachat99@gmail.com

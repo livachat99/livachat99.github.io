@@ -12,7 +12,7 @@ Subject to this Agreement and the Apple Media Services Terms and Conditions, Lic
 You may not copy, modify, distribute, sell, rent, lease, sublicense, or reverse engineer the Licensed Application except as expressly permitted by this Agreement, applicable open-source licenses, or applicable law. You may not use the Licensed Application in a way that violates this Agreement or any applicable law.
 
 3. Open-Source Components
-The Licensed Application includes open-source software, including LivaChat (Apache License 2.0) and third-party components (including MIT- and BSD-licensed components). Your use of those components is governed by their respective licenses. Nothing in this Agreement limits your rights under those licenses. License texts are provided in the Licensed Application's open-source notices and in the source distribution.
+The Licensed Application includes open-source software, including LivaChat (Apache License 2.0) and third-party components (including MIT- and BSD-licensed components). Your use of those components is governed by their respective licenses. Nothing in this Agreement limits your rights under those licenses. License texts for open-source components are available from their respective projects and, where provided, in the Licensed Application's open-source notices.
 
 4. The Server and Your Responsibilities
 The Licensed Application is a client for a LivaChat server that you obtain, install, and operate yourself. Licensor does not provide, operate, control, host, or support any server for the Licensed Application. You are solely responsible for your server, including its security, configuration, backups, availability, content, retention, third-party services, API keys, costs, and legal compliance. Licensor does not control and is not responsible for any content, AI output, data, or behavior of your server.
@@ -72,8 +72,7 @@ You acknowledge and agree that:
 - Apple is not responsible for any product warranties, whether express or implied, to the extent not effectively disclaimed;
 - Apple is not responsible for addressing any claims by you or any third party relating to the Licensed Application or your possession or use of it, including product liability claims, claims that the Licensed Application fails to conform to any applicable legal or regulatory requirement, and claims arising under consumer protection or similar legislation;
 - Apple is not responsible for the investigation, defense, settlement, or discharge of any third-party intellectual property infringement claim relating to the Licensed Application;
-- you must comply with applicable third-party terms when using the Licensed Application;
-- Apple and its subsidiaries are third-party beneficiaries of this Agreement and may enforce it against you.
+- you must comply with applicable third-party terms when using the Licensed Application.
 
 19. Governing Law and Disputes
 This Agreement is governed by the laws applicable to Licensor's principal place of business, without regard to conflict-of-law rules. If you are a consumer, this choice of law does not deprive you of the protection of mandatory consumer protection laws in your country of residence. Any dispute arising out of or relating to this Agreement will be brought in the courts with jurisdiction over Licensor's principal place of business, unless mandatory law gives you the right to bring the dispute elsewhere.

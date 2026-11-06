@@ -3,8 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LivaChat — Private, self-hosted AI voice chat</title>
-  <meta name="description" content="LivaChat is a private, self-hosted AI voice assistant for iOS. Your conversations go directly to the server you run.">
+  <title>LivaChat — Private, self-hosted AI voice assistant</title>
+  <meta name="description" content="LivaChat is an open-source, self-hosted AI voice and video assistant. Run the server yourself; your conversations go directly to it. Native iOS and Android clients. No account, no subscription, no tracking.">
+  <link rel="canonical" href="https://livachat99.github.io/">
+  <meta property="og:title" content="LivaChat — Private, self-hosted AI voice assistant">
+  <meta property="og:description" content="A private AI voice assistant on your server. Open source, no account, no subscription, no tracking.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://livachat99.github.io/">
+  <meta property="og:site_name" content="LivaChat">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
@@ -20,69 +30,158 @@
   </header>
 
   <main class="wrap">
-    <h1>A private AI voice assistant.<br>On your server.</h1>
-    <p class="lead">
-      LivaChat is a native iOS client for the open-source LivaChat server.
-      One-time purchase. No account. No subscription. No tracking.
-      Your conversations go directly to the server you run.
+    <h1>LivaChat — Private AI voice assistant on your server</h1>
+    <p>
+      LivaChat delivers real-time voice and visual AI chat, live transcription and translation, a
+      time-machine timeline of your conversations and media, plus Hermes and OpenClaw agent
+      integration for long-running tasks like news analysis, finance reports, and research.
     </p>
 
-    <div class="button-row">
-      <a class="button" href="/support/">Get help</a>
-      <a class="button secondary" href="/privacy/">Privacy Policy</a>
-    </div>
+    <h2 id="introduction">Introduction</h2>
 
-    <div class="grid">
-      <div class="card">
-        <h3>Private by design</h3>
-        <p class="muted">The developer does not operate a server and does not collect your data. Audio, video, and text go directly to the server you configure.</p>
-      </div>
-      <div class="card">
-        <h3>Your server</h3>
-        <p class="muted">Run LivaChat on your own Mac, Linux machine, or cloud instance. You control the model providers, storage, retention, and access.</p>
-      </div>
-      <div class="card">
-        <h3>No account</h3>
-        <p class="muted">No sign-up, no login, no subscription. Connect the app to your server with its address and auth key.</p>
-      </div>
-      <div class="card">
-        <h3>Open source</h3>
-        <p class="muted">The server and client source code are available on GitHub. Inspect, build, and modify them under the Apache 2.0 license.</p>
-      </div>
-    </div>
+    <p>ℹ️ LivaChat is a complete real-time AI chat platform: a self-hosted server plus native iOS and Android clients, built on the same open-source stack.</p>
+    <p>ℹ️ Run the server on your own Mac, Linux machine, or cloud VM. Voice, video, and text travel directly between the app and your server.</p>
+    <p>ℹ️ No account, no subscription, no tracking. You choose the model providers and control your own data.</p>
 
-    <h2>How it works</h2>
+    <h2 id="architecture">Architecture</h2>
+
+    <figure class="arch-figure">
+      <div class="diagram-scroll">
+        <img src="/images/arch.svg" alt="The LivaChat app on iPhone and Android connects over HTTPS and WebSocket to your self-hosted LivaChat server. The server stores media and history locally and calls the AI providers you configure. Hermes or OpenClaw relay agents can connect to the server." width="760" height="320">
+      </div>
+      <p class="diagram-hint small muted">Scroll the diagram sideways to see all components.</p>
+      <figcaption>The app talks only to the server you configure. Your server talks to the AI providers you choose.</figcaption>
+    </figure>
+
+    <h2 id="core-advantages">Core Advantages</h2>
+
+    <h3>Private by design:</h3>
+    <p>✅ The developer does not operate a server and does not collect your data. Audio, video, and text go directly to the server you configure.</p>
+
+    <h3>Your server, your rules:</h3>
+    <p>✅ Run LivaChat on macOS, Linux, or a cloud VM. You control the model providers, storage, retention, and access.</p>
+
+    <h3>No account:</h3>
+    <p>✅ There is no sign-up and no login. Connect the app with your server address and auth key.</p>
+
+    <h3>Open source:</h3>
+    <p>✅ The server and clients are released under the Apache License 2.0. Inspect, build, and modify them on <a href="https://github.com/livachat99">GitHub</a>.</p>
+
+    <h3>Real-time multimodal:</h3>
+    <p>✅ Low-latency duplex voice, live transcription and translation, and vision in one conversation.</p>
+
+    <h3>Agent-ready:</h3>
+    <p>✅ Connect Hermes or OpenClaw agents and drive long-running tasks by voice or chat.</p>
+
+    <h2 id="quick-installation">Quick Installation</h2>
+
+    <h3>Installation Notes</h3>
+    <p>✅ The server installs and starts with one script: <code>./livachat.sh install</code>, then <code>./livachat.sh start</code>.</p>
+    <p>ℹ️ LivaChat runs on macOS, Linux, and Windows via WSL2. Python 3.12 is installed automatically by the setup script.</p>
+    <p>⚠️ You need <code>ffmpeg</code>, <code>libopus</code>, and an Alibaba Bailian (DashScope) API key before starting the server.</p>
+
+    <h3>Quick Start</h3>
     <ol>
-      <li>Install and start the open-source LivaChat server on hardware you control.</li>
-      <li>Open the iOS app and enter your server address and auth key.</li>
-      <li>Start a voice or text conversation. Data flows directly between the app and your server.</li>
+      <li>
+        <strong>Install the media prerequisites for your platform.</strong>
+        <pre><code># macOS (Homebrew)
+brew install ffmpeg opus
+
+# Ubuntu / Debian
+sudo apt update &amp;&amp; sudo apt install -y ffmpeg libopus0
+
+# Fedora
+sudo dnf install -y ffmpeg-free opus
+
+# Arch Linux
+sudo pacman -S --needed ffmpeg opus</code></pre>
+      </li>
+      <li>
+        <strong>Clone the repository and run the installer.</strong>
+        <pre><code>git clone https://github.com/livachat99/livachat.git
+cd livachat
+./livachat.sh install</code></pre>
+      </li>
+      <li>
+        <strong>Configure the server.</strong>
+        <pre><code>cp .env.example .env
+# Edit .env and fill in:
+#   DASHSCOPE_API_KEY
+#   DASHSCOPE_API_HOST
+#   DASHSCOPE_WORKSPACE_ID
+#   APP_AUTH_TOKEN</code></pre>
+      </li>
+      <li>
+        <strong>Start the server and check its health.</strong>
+        <pre><code>./livachat.sh start
+./livachat.sh status</code></pre>
+      </li>
+      <li>
+        <strong>Open the app and connect.</strong>
+        <p>Enter your server address (for example <code>https://&lt;server-host&gt;:8080</code>) and the <code>APP_AUTH_TOKEN</code> from your <code>.env</code>. If your server uses a self-signed certificate, enable "Allow self-signed certificates" in Settings.</p>
+      </li>
     </ol>
 
-    <p class="note">
-      LivaChat does not provide hosting. You need your own LivaChat server to use the app.
-      Setup instructions and source code are available at
-      <a href="https://github.com/livachat99">github.com/livachat99</a>.
-    </p>
+    <h2 id="client-download">Client Download</h2>
 
-    <h2>Requirements</h2>
-    <ul>
-      <li>iPhone running iOS 15.0 or later.</li>
-      <li>A LivaChat server you control, reachable from your device.</li>
-      <li>Microphone permission for voice conversation; camera permission is optional.</li>
-    </ul>
+    <p>ℹ️ Native clients share the same open-source stack. Store listings will be linked here when they go live.</p>
 
-    <h2>Contact</h2>
-    <p>Questions, bug reports, or content reports: <a href="mailto:livachat99@gmail.com">livachat99@gmail.com</a></p>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>Client</th>
+            <th>Download</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- TODO: replace with the App Store URL when the listing is live. -->
+          <tr>
+            <td>iPhone / iPad</td>
+            <td>App Store — coming soon</td>
+            <td>Requires iOS 15.0 or later</td>
+          </tr>
+          <!-- TODO: replace with the Google Play URL when the listing is live. -->
+          <tr>
+            <td>Android</td>
+            <td>Google Play — coming soon</td>
+            <td>Build from source</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="contact">Contact</h2>
+
+    <p>💡 Questions, bug reports, or content reports: use the <a href="/support/">Support page</a>.</p>
+    <p>🌐 Source code and releases: <a href="https://github.com/livachat99">https://github.com/livachat99</a></p>
   </main>
 
   <footer>
     <div class="wrap">
-      <p>© 2026 JIANHUA YANG. LivaChat is released under the Apache License 2.0.</p>
-      <p class="small">
-        <a href="/privacy/">Privacy Policy</a> ·
-        <a href="/terms/">Terms of Use</a> ·
-        <a href="/support/">Support</a>
-      </p>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h2>LivaChat</h2>
+          <p>Private, self-hosted AI voice assistant.</p>
+        </div>
+        <div class="footer-col">
+          <h2>Links</h2>
+          <ul>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+            <li><a href="/terms/">EULA</a></li>
+            <li><a href="/support/">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="https://github.com/livachat99">GitHub</a></li>
+            <li><a href="/support/">Support</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom">© 2026 LivaChat. Released under the Apache License 2.0.</p>
     </div>
   </footer>
 </body>

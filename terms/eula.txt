@@ -1,6 +1,6 @@
 LivaChat End User License Agreement (EULA)
-Effective date: November 1, 2026
-Last updated: November 1, 2026
+Effective date: November 7, 2026
+Last updated: November 7, 2026
 
 This End User License Agreement ("Agreement") is a legal agreement between you and JIANHUA YANG ("Licensor", "we", "us") for the LivaChat iOS application and its documentation, updates, and related materials (collectively, the "Licensed Application"). The LivaChat server is separate open-source software that you install and operate yourself and is not part of the Licensed Application.
 
@@ -18,7 +18,7 @@ The Licensed Application includes open-source software, including LivaChat (Apac
 The Licensed Application is a client for a LivaChat server that you obtain, install, and operate yourself. Licensor does not provide, operate, control, host, or support any server for the Licensed Application. You are solely responsible for your server, including its security, configuration, backups, availability, content, retention, third-party services, API keys, costs, and legal compliance. Licensor does not control and is not responsible for any content, AI output, data, or behavior of your server.
 
 5. Eligibility
-The Licensed Application is intended for adults. You must be at least 18 years old to use it. By using the Licensed Application, you represent and warrant that you are at least 18 years old and legally capable of entering into this Agreement.
+The Licensed Application is intended for users aged 16 and over. You must be at least 16 years old to use it. If you are under the age of majority in your jurisdiction, you represent and warrant that your parent or legal guardian has consented to your use of the Licensed Application and to this Agreement on your behalf.
 
 6. AI-Generated Content
 The Licensed Application may display or play AI-generated content produced by your server. AI output may be inaccurate, incomplete, offensive, biased, harmful, or otherwise unsuitable. It is not medical, legal, financial, or other professional advice. Do not rely on it for emergencies or important decisions without independent verification. You are solely responsible for how you use AI output and for any content you create, upload, record, or generate.
